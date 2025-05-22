@@ -1,0 +1,29 @@
+# 가상환경
+venv/
+.venv/
+
+# 데이터 및 이미지 (raw input/output)
+data/
+slide_imgs/
+faiss_index/
+img_output/
+
+# 환경 설정 파일
+.env
+
+# Jupyter notebook 체크포인트
+.ipynb_checkpoints/
+
+# Mac/Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 로그 및 임시 파일
+*.log
+*.tmp
